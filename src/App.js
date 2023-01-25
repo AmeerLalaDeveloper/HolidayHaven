@@ -1,11 +1,7 @@
 import React from 'react';
 
 function App() {
-	return (
-		<div>
-			<p />
-		</div>
-	);
+	return <div>ya 7ram</div>;
 }
 
 export default App;

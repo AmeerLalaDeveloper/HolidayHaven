@@ -33,6 +33,11 @@
 		"webpack-cli": "^5.0.1",
 		"webpack-dev-server": "^4.11.1"
 	},
+	"husky":{
+		"hooks":{
+			"pre-commit": "lint-staged"
+		}
+	},
 	"lint-staged": {
 		"*.js": "eslint --cache --fix",
 		"*.--write": "prettier --write"
